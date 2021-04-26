@@ -27,8 +27,8 @@ spec:
     spec:
       containers:
         - name: config-example
-          image: config-example
-          imagePullPolicy: Never
+          image: demoprojectacr.azurecr.io/demos/config-example
+          #imagePullPolicy: Never
           ports:
             - containerPort: 8080
           env:

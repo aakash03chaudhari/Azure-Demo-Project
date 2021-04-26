@@ -2,7 +2,7 @@ apiVersion: skaffold/v1
 kind: Config
 build:
   artifacts:
-    - image: users-service
+    - image: demoprojectacr.azurecr.io/demos/users-service
       docker:
         dockerfile: Dockerfile
   local: {}

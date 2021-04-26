@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: users-service
-          image: users-service
-          imagePullPolicy: Never
+          image: demoprojectacr.azurecr.io/demos/users-service
+          #imagePullPolicy: Never
           ports:
             - containerPort: 8080
